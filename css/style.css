@@ -1,0 +1,288 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.banner{
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+.cstm-logo {
+    height: 55px;
+}
+.cstm-link {
+    color: white !important;
+    font-weight: 600;
+    padding: 0px 20px !important;
+    transition: .4s ease-in-out;
+}
+.menu-line {
+    cursor: default;
+}
+.banner-text {
+    padding-top: 90px;
+}
+.banner-text h1 {
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    background: #32343286;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.banner-text-two p {
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.banner-text-two span {
+    border: 1px solid white;
+    display: inherit;
+    width: 30px;
+    margin-bottom: 35px;
+}
+.contact-btn {
+    padding: 10px 40px 10px 40px;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    transition: .4s ease-in-out;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.contact-btn:hover{
+    color: black;
+    background-color: white;
+}
+.welcome {
+    background: #F5F6F6;
+}
+.welcome-text {
+    margin-top: 50px;
+}
+.welcome-text h1 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.welcome-text span {
+    display: inherit;
+    border: 1px solid black;
+    width: 30px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.welcome-text p {
+    font-size: 18px;
+    color: black;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.car-image {
+    position: relative;
+}
+.car-image img {
+    width: 750px;
+    position: absolute;
+    top: 90px;
+}
+.another {
+    background: #28282E;
+}
+.another-text {
+    margin-top: 60px;
+}
+.another-text h1 {
+    font-weight: 700;
+    color: white;
+    margin-top: 35px;
+    font-size: 30px;
+}
+.another-text span{
+    display: inherit;
+    border: 1px solid white;
+    width: 30px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.another-text p{
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.another-btn {
+    padding: 10px 40px 10px 40px;
+    text-transform: uppercase;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    transition: .4s ease-in-out;
+    font-weight: 500;
+    margin-bottom: 60px;
+    font-size: 15px;
+}
+.another-btn:hover{
+    color: black;
+    background-color: white;
+}
+.another-img {
+    margin-top: 120px;
+}
+.another-img img {
+    width: 650px;
+    margin-left: 20px;
+}
+.footer {
+    background: #F64436;
+}
+.footer h3 {
+    font-size: 16px;
+    padding: 20px 0px;
+    margin: 0px;
+    color: white;
+    font-weight: 350;
+}
+
+
+
+
+
+
+
+
+
+
+/* mobile device */
+@media (min-width: 320px) and (max-width: 576px){
+.banner-text h1 {
+    font-size: 20px;
+}
+.banner-text-two p {
+    font-size: 10px;
+}
+.welcome-text h1 {
+    font-size: 15px;
+}
+.welcome-text p {
+    font-size: 10px;
+}
+.car-image img {
+    width: 450px;
+}
+.another-img img {
+    width: 350px;
+}
+.another-text h1 {
+    font-weight: 15px;
+}
+.another-text p{
+    font-size: 10px;
+}
+.another-btn {
+    font-size: 10px;
+}
+.footer h3 {
+    font-size: 10px;
+}
+}
+/* medium device */
+@media (min-width: 576.01px) and (max-width: 992px){
+.banner-text h1 {
+    font-size: 30px;
+}
+.banner-text-two p {
+    font-size: 12px;
+}
+.welcome-text h1 {
+    font-size: 17px;
+}
+.welcome-text p {
+    font-size: 12px;
+}
+.car-image img {
+    width: 550px;
+}
+.another-img img {
+    width: 450px;
+}
+.another-text h1 {
+    font-size: 17px;
+}
+.another-text p{
+    font-size: 12px;
+}
+.another-btn {
+    font-size: 12px;
+}
+.footer h3 {
+    font-size: 14px;
+}
+}
+
+/* notebook & laptop device */
+@media (min-width: 768.01px) and (max-width: 992px){
+.banner-text h1 {
+    font-size: 40px;
+}
+.banner-text-two p {
+    font-size: 15px;
+}
+.welcome-text h1 {
+    font-size: 20px;
+}
+.welcome-text p {
+    font-size: 14px;
+}
+.car-image img {
+    width: 650px;
+}
+.another-img img {
+    width: 550px;
+}
+.another-text h1 {
+    font-weight: 20px;
+}
+.another-text p{
+    font-size: 14px;
+}
+.another-btn {
+    font-size: 14px;
+}
+.footer h3 {
+    font-size: 15px;
+}
+}
+/* larg device */
+@media (min-width: 992.01px) and (max-width: 1200px){
+.banner-text h1 {
+    font-size: 50px;
+}
+.banner-text-two p {
+    font-size: 17px;
+}
+.welcome-text h1 {
+    font-size: 30px;
+}
+.welcome-text p {
+    font-size: 18px;
+}
+.car-image img {
+    width: 750px;
+}
+.another-text h1 {
+    font-weight: 30px;
+}
+.another-img img {
+    width: 650px;
+}
+.footer h3 {
+    font-size: 16px;
+}
+.another-text p{
+    font-size: 18px;
+}
+}

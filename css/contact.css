@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.cstm-logo {
+    height: 55px;
+}
+.cstm-link {
+    color: black !important;
+    font-weight: 600;
+    padding: 0px 20px !important;
+    transition: .4s ease-in-out;
+}
+.menu-line {
+    cursor: default;
+}
+.body{
+    background-color: #F74C3B;
+}
+.cstm-contact {
+    margin-top: 30px;
+}
+.contact-img{
+
+}
+.cstm-contact h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.cstm-contact img {
+    width: 100%;
+    margin-top: 35px;
+}
+.contact-img img {
+    width: 100%;
+}
+.contact-text {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.contact-text p {
+    font-size: 17px;
+    color: white;
+    float: left;
+}
+.contact-form {
+    padding-bottom: 50px;
+}
+.form-group {
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.form-control {
+    border: 1px solid gray;
+}
+.submit-btn {
+    margin-top: 75px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border: 1px solid gray;
+    background: transparent;
+    color: white;
+    text-transform: uppercase;
+    transition: .4s ease-in-out;
+}
+.submit-btn:hover{
+    background-color: white;
+    color: black;
+}
+.footer {
+    background: #F64436;
+}
+.cstm-footer{
+
+}
+.cstm-footer h3 {
+    font-size: 15px;
+    padding: 15px 0px;
+    color: white;
+}
+
+
+
+
+
+/* mobile device */
+@media (min-width: 320px) and (max-width: 576px){
+.cstm-logo {
+    height: 35px;
+}
+.cstm-contact h2 {
+    font-size: 20px;
+}
+.contact-text p {
+    font-size: 12px;
+}
+.submit-btn {
+    font-size: 10px;
+}
+.form-group {
+    font-size: 15px;
+}
+.cstm-footer h3 {
+    font-size: 8px;
+}
+}
+/* medium device */
+@media (min-width: 576.01px) and (max-width: 768px){
+.cstm-logo {
+    height: 45px;
+}
+.cstm-contact h2 {
+    font-size: 25px;
+}
+.contact-text p {
+    font-size: 14px;
+}
+.submit-btn {
+    font-size: 12px;
+}
+.form-group {
+    font-size: 17px;
+}
+.cstm-footer h3 {
+    font-size: 10px;
+}
+}
+/* notebook & laptop device */
+@media (min-width: 768.01px) and (max-width: 992px){
+.cstm-logo {
+    height: 55px;
+}
+.cstm-contact h2 {
+    font-size: 30px;
+}
+.contact-text p {
+    font-size: 16px;
+}
+.submit-btn {
+    font-size: 15px;
+}
+.form-group {
+    font-size: 20px;
+}
+.cstm-footer h3 {
+    font-size: 13px;
+}
+}
+/* large device */
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+}

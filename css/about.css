@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.cstm-logo {
+    height: 55px;
+}
+.cstm-link {
+    color: white !important;
+    font-weight: 600;
+    padding: 0px 20px !important;
+    transition: .4s ease-in-out;
+}
+.cstm-link {
+    color: black !important;
+    font-weight: 600;
+    padding: 0px 20px !important;
+    transition: .4s ease-in-out;
+}
+.body-text {
+    margin-top: 85px;
+}
+.body-text h1 {
+    text-transform: uppercase;
+    font-weight: 650;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.body-text p {
+    font-size: 15px;
+    color: black;
+}
+.body-img{
+
+}
+.body-img img {
+    width: 600px;
+    margin-top: 15px;
+}
+.body-text-two {
+    margin: 20px 0px 35px 0px;
+    float: left;
+}
+.body-text-two p {
+    font-size: 15px;
+    color: black;
+}
+.body-text-three {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.body-text-three p{
+    font-size: 15px;
+    color: black;
+}
+.footer-bottom {
+    background: #F64436;
+}
+.footer-bottom h3 {
+    font-size: 16px;
+    padding: 20px 0px;
+    margin: 0px;
+    color: white;
+    font-weight: 350;
+}
+
+
+
+
+
+
+
+/* mobile device */
+@media (min-width: 320px) and (max-width: 576px){
+.cstm-logo {
+    height: 35px;
+}
+.body-text h1 {
+    font-size: 15px;
+}
+.body-text p {
+    font-size: 10px;
+}
+.body-text-two p {
+    font-size: 10px;
+}
+.body-text-three p{
+    font-size: 10px;
+}
+.footer-bottom h3 {
+    font-size: 10px;
+}
+}
+
+
+
+
+/* medium device */
+@media (min-width: 576.01px) and (max-width: 768px){
+.cstm-logo {
+    height: 40px;
+}
+.body-text h1 {
+    font-size: 17px;
+}
+.body-text p {
+    font-size: 12px;
+}
+.body-text-two p {
+    font-size: 12px;
+}
+.body-text-three p{
+    font-size: 12px;
+}
+.footer-bottom h3 {
+    font-size: 12px;
+}
+}
+
+
+
+
+/* notebook & laptop device */
+@media (min-width: 768.01px) and (max-width: 992px){
+.cstm-logo {
+    height: 45px;
+}
+.body-text h1 {
+    font-size: 20px;
+}
+.body-text p {
+    font-size: 14px;
+}
+.body-text-two p {
+    font-size: 14px;
+}
+.body-text-three p{
+    font-size: 14px;
+}
+.footer h3 {
+    font-size: 14px;
+}
+}
+
+
+
+/* large device */
+@media (min-width: 992.01px) and (max-width: 1200px){
+
+}
